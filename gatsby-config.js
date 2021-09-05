@@ -1,24 +1,24 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "alberto-portfolio",
+    siteUrl: 'https://www.yourdomain.tld',
+    title: 'alberto-portfolio',
   },
   plugins: [
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-sitemap',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: "src/images/icon.png",
+        icon: 'src/images/icon.png',
       },
     },
-    "gatsby-plugin-mdx",
+    'gatsby-plugin-mdx',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: 'pages',
+        path: './src/pages/',
       },
-      __key: "pages",
+      __key: 'pages',
     },
   ],
 };

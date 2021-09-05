@@ -1,0 +1,15 @@
+.profile {
+    border-radius: 5px;
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    transform: scale(1) rotate(-2deg);
+    position: relative;
+    top: 1rem;
+    transition: all .5s;
+    background-size: cover;
+}
+
+.profile:hover {
+    transform: scale(1.1);
+}

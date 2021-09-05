@@ -1,0 +1,61 @@
+:root {
+    --background: #141821;
+    --text: white;
+    --action: palevioletred;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+/* Avoid import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    color: var(--text);
+    background-color: var(--background);
+    font-family: Montserrat;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px 14px #0000001f;
+}
+
+
+a:link {
+    /* color: palevioletred; */
+    color: paleturquoise;
+}
+a:visited  {
+    color: paleturquoise;
+}
+
+a:active,
+a:hover {
+    color: var(--action);
+}
+
+.btn {
+    background: none;
+    color: var(--text);
+    border: none;
+    font-Weight: bold;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+}
+
+.btn:focus,
+.btn:hover {
+    border-radius: 5px;
+    border-color: var(--text);
+}
