@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Progress } from './Progress';
-import { Typer } from './Typer';
+import { Progress } from '../Progress';
+import { Typer } from '../Typer';
 
-import * as styles from './Header/index.module.css';
+import * as styles from './index.module.css';
 
 const attributes = ['Photographer', 'Drone Pilot', 'Colorist', 'Editor', 'Cinematographer', 'Videographer', 'Screenwriter'];
 
