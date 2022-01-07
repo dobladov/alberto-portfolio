@@ -19,11 +19,11 @@ export const Project = ({
     <div
       className={styles.projectName}
     >
-      <h4
+      <h3
         className={styles.projectTitle}
       >
         {name}
-      </h4>
+      </h3>
       {link
       && (
       <a
@@ -76,6 +76,7 @@ export const Project = ({
           <img
             className={pos}
             width="400px"
+            height="320px"
             src={src}
             alt={alt}
             style={{
