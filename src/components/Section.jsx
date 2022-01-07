@@ -1,8 +1,5 @@
 import React from 'react';
 
-import 'normalize.css';
-import './global.css';
-
 export const Section = ({
   children,
   full,

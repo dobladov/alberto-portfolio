@@ -20,6 +20,9 @@ import mondnacht3 from '../images/mondnacht-3.png';
 
 import * as styles from './index.module.css';
 
+import 'normalize.css';
+import '../components/global.css';
+
 const IndexPage = () => (
   <main
     style={{
