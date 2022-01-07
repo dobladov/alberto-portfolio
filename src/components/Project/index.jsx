@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play } from 'react-feather';
 
-import './projects.css';
+import * as styles from './index.module.css';
 
 export const Project = ({
   name,
@@ -16,9 +16,13 @@ export const Project = ({
   }}
   >
     <div
-      className="projectName"
+      className={styles.projectName}
     >
-      <h4>{name}</h4>
+      <h4
+        className={styles.projectTitle}
+      >
+        {name}
+      </h4>
       {link
       && (
       <a
@@ -59,7 +63,7 @@ export const Project = ({
         flexWrap: 'wrap',
         justifyContent: 'center',
       }}
-      className="container"
+      className={styles.container}
     >
       {images.map(({ src, alt, pos }, i) => (
         <a
