@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Header } from '../components/Header';
 import { Section } from '../components/Section';
 import { Project } from '../components/Project';
@@ -28,6 +29,11 @@ const IndexPage = () => (
   <main
     className={styles.container}
   >
+    <Helmet
+      htmlAttributes={{
+        lang: 'es',
+      }}
+    />
     <Header attributes={attributes} />
     <Section
       full
