@@ -8,6 +8,24 @@
     font-size: 1.2rem;
 }
 
+.btn {
+    background: none;
+    color: var(--text);
+    border: none;
+    font-Weight: bold;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.btn:focus,
+.btn:hover {
+    border-radius: 5px;
+    border-color: var(--text);
+    color: var(--text);
+}
+
 @media screen and (min-width: 768px) {
     .header {
         left: 1.5rem;

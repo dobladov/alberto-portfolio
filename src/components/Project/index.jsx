@@ -9,6 +9,7 @@ export const Project = ({
   images,
   link,
   inverse,
+  watchText = 'Watch',
 }) => (
   <div style={{
     paddingBottom: '3em',
@@ -42,7 +43,7 @@ export const Project = ({
       >
         <Play />
         {' '}
-        Watch
+        {watchText}
       </a>
       )}
     </div>

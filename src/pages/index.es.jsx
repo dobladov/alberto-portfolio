@@ -4,7 +4,6 @@ import { Section } from '../components/Section';
 import { Project } from '../components/Project';
 import { Socials } from '../components/Socials';
 
-// Images
 import profileImage from '../images/profile.jpg';
 import tirantitos1 from '../images/tirantitos-1.jpg';
 import tirantitos2 from '../images/tirantitos-2.jpg';
@@ -23,16 +22,18 @@ import * as styles from './index.module.css';
 import 'normalize.css';
 import '../components/global.css';
 
+const attributes = ['Fotografo', 'Piloto de drones', 'Colorista', 'Editor', 'Cinematografo', 'Videografo', 'Guionista'];
+
 const IndexPage = () => (
   <main
     className={styles.container}
   >
-    <Header />
+    <Header attributes={attributes} />
     <Section
       full
       className="intro"
     >
-      <title>Alberto Doblado - Photographer &amp; Videographer</title>
+      <title>Alberto Doblado - Fotografo &amp; Videografo</title>
       <h1 className={styles.title}>
         Alberto Doblado
       </h1>
@@ -41,44 +42,47 @@ const IndexPage = () => (
         className={styles.profileImage}
         width="400px"
         src={profileImage}
-        alt="Portrait of Alberto Doblado"
+        alt="Retrato de Alberto Doblado"
       />
 
       <p className={styles.text}>
-        Is a freelance videographer and photographer based in Málaga (Spain),
-        working at his own producing company
+        Es un videografo y fotografo freelance localizado en Málaga (España),
+        trabajado en su propia productura
         {' '}
         <a target="_blank" rel="noopener noreferrer" href="https://caraoculta.es/">Cara Oculta</a>
         .
       </p>
       <p>
-        He has worked with a wide range of clients for products, sports and specially in
-        the musical field, translating their clients talent into beautiful images and videos.
+        Ha trabajado con una amplia gama de clientes para productos, deportes y
+        especialmente en el campo musical, traduciendo el talento de sus clientes
+        en bellas imágenes y vídeos.
       </p>
     </Section>
     <Section>
-      <h2>Projects</h2>
+      <h2>Projectos</h2>
 
       <Project
+        watchText="Ver"
         name="Los Tirantitos"
         images={[
-          { src: tirantitos1, alt: 'Video clip title', pos: 'left' },
-          { src: tirantitos2, alt: 'Two girls about to kiss', pos: 'middle' },
+          { src: tirantitos1, alt: 'Titulo del video-clip', pos: 'left' },
+          { src: tirantitos2, alt: 'Dos chicas a punto de vesarse', pos: 'middle' },
           { src: tirantitos3, alt: 'Sunset with an aerial view of the and', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=AgPC9QQqd18"
       >
-        Video clip for a flamenco-pop band, participants of the TV show
+        video clip para una banda flamenco-pop, participantes del show de television
         {' '}
         <a href="https://www.youtube.com/watch?v=lkUyz4WruCA">Tierra de Talento</a>
         {' '}
-        and finalist of
+        y finalistas en
         {' '}
         <a href="https://www.canalsur.es/television/programas/tierra-de-talento/noticia/1589807.html">Canal Sur Radio</a>
         .
       </Project>
 
       <Project
+        watchText="Ver"
         name="Mondnacht"
         images={[
           { src: mondnacht1, alt: 'One', pos: 'left' },
@@ -87,10 +91,12 @@ const IndexPage = () => (
         ]}
         link="https://www.youtube.com/watch?v=TWDRQoaNrNk"
       >
-        Performance of Robert Schumann by the mussicians Jaime Espinosa (Piano) and Kitty Bazalgette (Soprano).
+        Interpretacion de Robert Schumann por los musicos Jaime Espinosa (Piano)
+        y Kitty Bazalgette (Soprano).
       </Project>
 
       <Project
+        watchText="Ver"
         name="A Fistful of Clones"
         inverse
         images={[
@@ -100,7 +106,8 @@ const IndexPage = () => (
         ]}
         link="https://www.youtube.com/watch?v=_kv1YdZp5VQ"
       >
-        Short film about the depopulation of rural areas from a new perspective, taking it to the realm of the science fiction.
+        Corto sobre la despoblacion de areas ruales desde una nueva perspectiva,
+        discutiendolo desde el punto de vista de la ciencia ficcion.
       </Project>
     </Section>
 
@@ -109,14 +116,13 @@ const IndexPage = () => (
         fontSize: '1.5rem',
       }}
     >
-      <h2>Contact</h2>
+      <h2>Contacto</h2>
       <p>
-        At the moment I&apos;m available to work with any kind of project,
-        from a short film, music video to a long
-        documentary including moving to other countries.
+        Actualmente estoy disponible para trabajar en cualquier tipo de proyecto,
+        desde cortos, videoclips musicales a loargos documentales inluyendo moverme a otros paises.
       </p>
       <p>
-        I'm also a licensed drone pilot.
+        Soy tambien un piloto de drone licenciado
       </p>
       <a href="tel:+34688977721">+34 688 97 77 21</a>
       <br />

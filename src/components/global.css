@@ -44,18 +44,3 @@ a:active,
 a:hover {
     color: var(--action);
 }
-
-.btn {
-    background: none;
-    color: var(--text);
-    border: none;
-    font-Weight: bold;
-    border: 1px solid transparent;
-    padding: 0.5rem 1rem;
-}
-
-.btn:focus,
-.btn:hover {
-    border-radius: 5px;
-    border-color: var(--text);
-}

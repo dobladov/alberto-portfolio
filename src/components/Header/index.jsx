@@ -4,9 +4,7 @@ import { Typer } from '../Typer';
 
 import * as styles from './index.module.css';
 
-const attributes = ['Photographer', 'Drone Pilot', 'Colorist', 'Editor', 'Cinematographer', 'Videographer', 'Screenwriter'];
-
-export const Header = () => {
+export const Header = ({ attributes }) => {
   const [scrollProgress, setScrollProgress] = useState(0);
 
   const getScrollPercent = () => {
@@ -51,14 +49,20 @@ export const Header = () => {
         >
           <Typer words={attributes} />
         </h2>
-        {/* <nav>
-          <button className="btn" type="button">
+        <nav>
+          <a
+            className={styles.btn}
+            href="/"
+          >
             EN
-          </button>
-          <button className="btn" type="button">
+          </a>
+          <a
+            className={styles.btn}
+            href="/es"
+          >
             ES
-          </button>
-        </nav> */}
+          </a>
+        </nav>
         <Progress progress={scrollProgress} />
       </div>
     </header>
