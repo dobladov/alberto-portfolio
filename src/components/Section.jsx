@@ -10,7 +10,7 @@ export const Section = ({
     paddingTop: '5rem',
     fontSize: '2rem',
     lineHeight: '3rem',
-    padding: '1rem 3rem 1rem 3rem',
+    padding: '1rem 2rem 1rem 2rem',
     maxWidth: '1400px',
     margin: '0 auto',
     display: 'flex',

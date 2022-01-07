@@ -25,10 +25,7 @@ import '../components/global.css';
 
 const IndexPage = () => (
   <main
-    style={{
-      marginTop: '4rem',
-      fontSize: '1.5rem',
-    }}
+    className={styles.container}
   >
     <Header />
     <Section
@@ -36,12 +33,7 @@ const IndexPage = () => (
       className="intro"
     >
       <title>Alberto Doblado - Photographer &amp; Videographer</title>
-      <h1
-        style={{
-          fontSize: '3rem',
-          lineHeight: '3rem',
-        }}
-      >
+      <h1 className={styles.title}>
         Alberto Doblado
       </h1>
 
@@ -55,6 +47,7 @@ const IndexPage = () => (
       <p
         style={{
           paddingTop: '1rem',
+          clear: 'both',
         }}
       >
         Is a freelance videographer and photographer based in Málaga (Spain),

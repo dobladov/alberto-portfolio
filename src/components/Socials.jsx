@@ -28,6 +28,7 @@ export const Socials = () => (
   <div style={{
     display: 'flex',
     flexWrap: 'wrap',
+    justifyContent: 'center',
     gap: '2rem',
     padding: '3rem 0',
   }}
