@@ -12,7 +12,7 @@
 .projectName {
     position: sticky;
     top: 3px;
-    /* background-color: var(--background); */
+    gap: 1rem;
     background: linear-gradient(45deg, var(--background), transparent);
     z-index: 1;
     border-bottom: 1px solid var(--text);

@@ -56,14 +56,14 @@ export const Header = () => {
         >
           <Typer words={attributes} />
         </h2>
-        <nav>
+        {/* <nav>
           <button className="btn" type="button">
             EN
           </button>
           <button className="btn" type="button">
             ES
           </button>
-        </nav>
+        </nav> */}
         <Progress progress={scrollProgress} />
       </div>
     </header>

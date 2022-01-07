@@ -1,5 +1,5 @@
 import React from 'react';
-import { PlayCircle } from 'react-feather';
+import { Play } from 'react-feather';
 
 import './projects.css';
 
@@ -30,14 +30,13 @@ export const Project = ({
           gap: '0.5em',
           alignItems: 'center',
           textDecoration: 'none',
-          border: '1px solid var(--text)',
-          borderRadius: '5px',
-          padding: '0 1rem',
+          justifyContent: 'center',
+          borderRadius: '50%',
+          padding: '.5rem',
           fontSize: '.5em',
-          background: 'var(--background)',
         }}
       >
-        <PlayCircle />
+        <Play />
         {' '}
         Watch
       </a>

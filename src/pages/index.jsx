@@ -96,7 +96,7 @@ const IndexPage = () => (
         ]}
         link="https://www.youtube.com/watch?v=_kv1YdZp5VQ"
       >
-        Short film about the depopulation of rutal areas from a new perspective, taking it to the realm of the science fiction.
+        Short film about the depopulation of rural areas from a new perspective, taking it to the realm of the science fiction.
       </Project>
     </Section>
 
