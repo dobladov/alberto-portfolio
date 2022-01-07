@@ -119,10 +119,10 @@ const IndexPage = () => (
       <h2>Contacto</h2>
       <p>
         Actualmente estoy disponible para trabajar en cualquier tipo de proyecto,
-        desde cortos, videoclips musicales a loargos documentales inluyendo moverme a otros paises.
+        desde cortos, videoclips musicales a largos documentales incluyendo moverme a otros paises.
       </p>
       <p>
-        Soy tambien un piloto de drone licenciado
+        Soy también un piloto de drones licenciado.
       </p>
       <a href="tel:+34688977721">+34 688 97 77 21</a>
       <br />
