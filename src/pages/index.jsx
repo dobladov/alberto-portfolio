@@ -18,19 +18,32 @@ import mondnacht1 from '../images/mondnacht-1.png';
 import mondnacht2 from '../images/mondnacht-2.png';
 import mondnacht3 from '../images/mondnacht-3.png';
 
-import './index.css';
+import * as styles from './index.module.css';
 
 const IndexPage = () => (
-  <main>
+  <main
+    style={{
+      marginTop: '4rem',
+      fontSize: '1.5rem',
+    }}
+  >
     <Header />
-    <Section full className="intro">
+    <Section
+      full
+      className="intro"
+    >
       <title>Alberto Doblado - Photographer &amp; Videographer</title>
-      <h1>
+      <h1
+        style={{
+          fontSize: '3rem',
+          lineHeight: '3rem',
+        }}
+      >
         Alberto Doblado
       </h1>
 
       <img
-        className="profile"
+        className={styles.profileImage}
         width="400px"
         src={profileImage}
         alt="Portrait of Alberto Doblado"
@@ -100,7 +113,11 @@ const IndexPage = () => (
       </Project>
     </Section>
 
-    <Section>
+    <Section
+      style={{
+        fontSize: '1.5rem',
+      }}
+    >
       <h2>Contact</h2>
       <p>
         At the moment I&apos;m available to work with any kind of project,

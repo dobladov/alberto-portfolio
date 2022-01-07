@@ -1,4 +1,4 @@
-.profile {
+.profileImage {
     border-radius: 5px;
     float: left;
     margin-right: 3rem;
@@ -10,6 +10,6 @@
     background-size: cover;
 }
 
-.profile:hover {
+.profileImage:hover {
     transform: scale(1.1);
 }

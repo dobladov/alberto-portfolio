@@ -8,7 +8,7 @@ import {
   Linkedin,
 } from 'react-feather';
 
-import Vimeo from '../images/vimeo.inline.svg';
+// import Vimeo from '../images/vimeo.inline.svg';
 
 const icon = {
   width: '3rem',
@@ -27,6 +27,7 @@ const socials = [
 export const Socials = () => (
   <div style={{
     display: 'flex',
+    flexWrap: 'wrap',
     gap: '2rem',
     padding: '3rem 0',
   }}

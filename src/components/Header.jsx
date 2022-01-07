@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Progress } from './Progress';
 import { Typer } from './Typer';
 
+import * as styles from './Header/index.module.css';
+
 const attributes = ['Photographer', 'Drone Pilot', 'Colorist', 'Editor', 'Cinematographer', 'Videographer', 'Screenwriter'];
 
 export const Header = () => {
@@ -24,18 +26,11 @@ export const Header = () => {
   }, []);
 
   return (
-    <header style={{
-      position: 'fixed',
-      zIndex: '1',
-      width: 'calc(100% - 6rem)',
-      left: '3rem',
-      top: 0,
-      // background: 'linear-gradient(0deg, transparent 0%,  var(--background) 100%)',
-      background: 'var(--background)',
-      transition: 'transform 1s',
-      // top: scrollProgress > 0 ? `-${scrollProgress}%` : 0,
-      transform: `translateY(${scrollProgress > 3 ? '-95%' : 0})`,
-    }}
+    <header
+      className={styles.header}
+      style={{
+        transform: `translateY(${scrollProgress > 3 ? '-95%' : 0})`,
+      }}
     >
       <div style={{
         position: 'relative',
@@ -51,7 +46,7 @@ export const Header = () => {
       >
         <h2 style={{
           margin: 0,
-          padding: 0,
+          padding: '0 .5rem',
         }}
         >
           <Typer words={attributes} />

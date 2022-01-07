@@ -3,7 +3,12 @@ import React from 'react';
 import 'normalize.css';
 import './global.css';
 
-export const Section = ({ children, full, className }) => {
+export const Section = ({
+  children,
+  full,
+  className,
+  style,
+}) => {
   const section = {
     paddingTop: '5rem',
     fontSize: '2rem',
@@ -26,6 +31,7 @@ export const Section = ({ children, full, className }) => {
       className={className}
       style={{
         ...section,
+        ...style,
         ...(full ? sectionFull : {}),
       }}
     >

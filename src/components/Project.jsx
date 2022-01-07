@@ -33,7 +33,7 @@ export const Project = ({
           justifyContent: 'center',
           borderRadius: '50%',
           padding: '.5rem',
-          fontSize: '.5em',
+          fontSize: '1rem',
         }}
       >
         <Play />
@@ -45,7 +45,7 @@ export const Project = ({
     <p
       style={{
         padding: '1em 0',
-        fontSize: '.7em',
+        fontSize: '1.5rem',
         lineHeight: '1.5em',
       }}
     >
