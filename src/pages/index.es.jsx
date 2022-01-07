@@ -22,7 +22,7 @@ import * as styles from './index.module.css';
 import 'normalize.css';
 import '../components/global.css';
 
-const attributes = ['Fotografo', 'Piloto de drones', 'Colorista', 'Editor', 'Cinematografo', 'Videografo', 'Guionista'];
+const attributes = ['Fotógrafo', 'Piloto de drones', 'Colorista', 'Editor', 'Cinematógrafo', 'Videógrafo', 'Guionista'];
 
 const IndexPage = () => (
   <main
@@ -46,8 +46,8 @@ const IndexPage = () => (
       />
 
       <p className={styles.text}>
-        Es un videografo y fotografo freelance localizado en Málaga (España),
-        trabajado en su propia productura
+        Es un videógrafo y fotógrafo freelance localizado en Málaga (España),
+        trabajado en su propia productora
         {' '}
         <a target="_blank" rel="noopener noreferrer" href="https://caraoculta.es/">Cara Oculta</a>
         .
@@ -65,13 +65,13 @@ const IndexPage = () => (
         watchText="Ver"
         name="Los Tirantitos"
         images={[
-          { src: tirantitos1, alt: 'Titulo del video-clip', pos: 'left' },
-          { src: tirantitos2, alt: 'Dos chicas a punto de vesarse', pos: 'middle' },
-          { src: tirantitos3, alt: 'Sunset with an aerial view of the and', pos: 'right' },
+          { src: tirantitos1, alt: 'Titulo del videoclip', pos: 'left' },
+          { src: tirantitos2, alt: 'Dos chicas a punto de besarse', pos: 'middle' },
+          { src: tirantitos3, alt: 'Vista aérea de un atardecer', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=AgPC9QQqd18"
       >
-        video clip para una banda flamenco-pop, participantes del show de television
+        Videoclip para una banda flamenco-pop, participantes del show de televisión
         {' '}
         <a href="https://www.youtube.com/watch?v=lkUyz4WruCA">Tierra de Talento</a>
         {' '}
@@ -85,13 +85,13 @@ const IndexPage = () => (
         watchText="Ver"
         name="Mondnacht"
         images={[
-          { src: mondnacht1, alt: 'One', pos: 'left' },
-          { src: mondnacht2, alt: 'One', pos: 'middle' },
-          { src: mondnacht3, alt: 'One', pos: 'right' },
+          { src: mondnacht1, alt: 'Jaime Espinosa tocando el piano', pos: 'left' },
+          { src: mondnacht2, alt: 'Ambos musicos tocando', pos: 'middle' },
+          { src: mondnacht3, alt: 'Kitty Bazalgette cantando', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=TWDRQoaNrNk"
       >
-        Interpretacion de Robert Schumann por los musicos Jaime Espinosa (Piano)
+        Interpretación de Robert Schumann por los músicos Jaime Espinosa (Piano)
         y Kitty Bazalgette (Soprano).
       </Project>
 
@@ -100,14 +100,14 @@ const IndexPage = () => (
         name="A Fistful of Clones"
         inverse
         images={[
-          { src: clones1, alt: 'One', pos: 'left' },
-          { src: clones2, alt: 'One', pos: 'middle' },
-          { src: clones3, alt: 'One', pos: 'right' },
+          { src: clones1, alt: 'Un tecnico abriendo una maleta', pos: 'left' },
+          { src: clones2, alt: 'Portada del video', pos: 'middle' },
+          { src: clones3, alt: 'Dos clones haciendo tareas simultáneamente', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=_kv1YdZp5VQ"
       >
-        Corto sobre la despoblacion de areas ruales desde una nueva perspectiva,
-        discutiendolo desde el punto de vista de la ciencia ficcion.
+        Corto sobre la despoblación de áreas rurales desde una nueva perspectiva,
+        discutiéndolo desde elpunto de vista de la ciencia ficción.
       </Project>
     </Section>
 
@@ -118,8 +118,8 @@ const IndexPage = () => (
     >
       <h2>Contacto</h2>
       <p>
-        Actualmente estoy disponible para trabajar en cualquier tipo de proyecto,
-        desde cortos, videoclips musicales a largos documentales incluyendo moverme a otros paises.
+        Actualmente, estoy disponible para trabajar en cualquier tipo de proyecto,
+        desde cortos, videoclips musicales a largos documentales incluyendo moverme a otros países.
       </p>
       <p>
         Soy también un piloto de drones licenciado.
