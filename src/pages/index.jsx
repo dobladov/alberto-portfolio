@@ -44,12 +44,7 @@ const IndexPage = () => (
         alt="Portrait of Alberto Doblado"
       />
 
-      <p
-        style={{
-          paddingTop: '1rem',
-          clear: 'both',
-        }}
-      >
+      <p className={styles.text}>
         Is a freelance videographer and photographer based in Málaga (Spain),
         working at his own producing company
         {' '}

@@ -2,24 +2,15 @@
     padding-top: 4rem;
     font-size: 1rem;
     line-height: 1.7rem;
-
-    @media screen and (max-width: 768px) {
-        padding-top: 0;
-    }
 }
 
 .title {
     font-size: 3rem;
     line-height: 3rem;
-
-    @media screen and (min-width: 768px) {
-        font-size: 5rem;
-    }
 }
 
 .profileImage {
     border-radius: 5px;
-    float: left;
     margin-right: 3rem;
     margin-bottom: 2rem;
     transform: scale(1) rotate(-2deg);
@@ -27,8 +18,26 @@
     top: 1rem;
     transition: all .5s;
     background-size: cover;
+
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        padding-top: 0;
+    }
+
+    .title {
+        font-size: 5rem;
+    }
+
+    .profileImage {
+        float: left;
+    }
+}
 .profileImage:hover {
     transform: scale(1.1);
+}
+
+.text {
+    padding-top: 1rem;
 }
