@@ -33,7 +33,7 @@ const IndexPage = () => (
       full
       className="intro"
     >
-      <title>Alberto Doblado - Fotografo &amp; Videografo</title>
+      <title>Alberto Doblado - Fotógrafo y Videógrafo</title>
       <h1 className={styles.title}>
         Alberto Doblado
       </h1>
