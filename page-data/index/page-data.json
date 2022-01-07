@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-index-jsx",
+    "componentChunkName": "component---src-pages-index-en-jsx",
     "path": "/",
-    "result": {"pageContext":{}},
+    "result": {"pageContext":{"slug":"/","langKey":"en"}},
     "staticQueryHashes": []}
