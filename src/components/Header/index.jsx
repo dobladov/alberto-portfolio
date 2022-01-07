@@ -49,7 +49,9 @@ export const Header = ({ attributes }) => {
         >
           <Typer words={attributes} />
         </h2>
-        <nav>
+        <nav
+          className={styles.langs}
+        >
           <a
             className={styles.btn}
             href="/"
