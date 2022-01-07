@@ -54,7 +54,7 @@ const IndexPage = () => (
       </p>
       <p>
         He has worked with a wide range of clients for products, sports and specially in
-        the musical field, translating their clients talent into beautiful images and videos.
+        the musical field, translating their client&apos;s talent into beautiful images and videos.
       </p>
     </Section>
     <Section>
@@ -65,7 +65,7 @@ const IndexPage = () => (
         images={[
           { src: tirantitos1, alt: 'Video clip title', pos: 'left' },
           { src: tirantitos2, alt: 'Two girls about to kiss', pos: 'middle' },
-          { src: tirantitos3, alt: 'Sunset with an aerial view of the and', pos: 'right' },
+          { src: tirantitos3, alt: 'Sunset with an aerial view of the band', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=AgPC9QQqd18"
       >
@@ -82,26 +82,28 @@ const IndexPage = () => (
       <Project
         name="Mondnacht"
         images={[
-          { src: mondnacht1, alt: 'One', pos: 'left' },
-          { src: mondnacht2, alt: 'One', pos: 'middle' },
-          { src: mondnacht3, alt: 'One', pos: 'right' },
+          { src: mondnacht1, alt: 'Jaime Espinosa playing the piano', pos: 'left' },
+          { src: mondnacht2, alt: 'Both musicians performing together', pos: 'middle' },
+          { src: mondnacht3, alt: 'Kitty Bazalgette singing', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=TWDRQoaNrNk"
       >
-        Performance of Robert Schumann by the mussicians Jaime Espinosa (Piano) and Kitty Bazalgette (Soprano).
+        Performance of Robert Schumann by the mussicians Jaime Espinosa (Piano)
+        and Kitty Bazalgette (Soprano).
       </Project>
 
       <Project
         name="A Fistful of Clones"
         inverse
         images={[
-          { src: clones1, alt: 'One', pos: 'left' },
-          { src: clones2, alt: 'One', pos: 'middle' },
-          { src: clones3, alt: 'One', pos: 'right' },
+          { src: clones1, alt: 'A technician opening a radioactive toolbox', pos: 'left' },
+          { src: clones2, alt: 'The poster for the short film', pos: 'middle' },
+          { src: clones3, alt: 'Two colnes performing task simultaneously', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=_kv1YdZp5VQ"
       >
-        Short film about the depopulation of rural areas from a new perspective, taking it to the realm of the science fiction.
+        Short film about the depopulation of rural areas from a new perspective,
+        taking it to the realm of the science fiction.
       </Project>
     </Section>
 
@@ -112,7 +114,7 @@ const IndexPage = () => (
     >
       <h2>Contact</h2>
       <p>
-        At the moment I&apos;m available to work with any kind of project,
+        At the moment, I&apos;m available to work with any kind of project,
         from a short film, music video to a long
         documentary including moving to other countries.
       </p>
