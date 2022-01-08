@@ -251,10 +251,10 @@ const IndexPage = () => (
       <h2>Contacto</h2>
       <p>
         Actualmente, estoy disponible para trabajar en cualquier tipo de proyecto,
-        desde cortos, videoclips musicales a documentales incluyendo moverme a otros países.
+        desde cortos, videoclips, comerciales a documentales incluyendo moverme a otros países.
       </p>
       <p>
-        Soy también tengo licencia para el pilotaje de drones.
+        También tengo licencia de piloto de drones y radiofonista.
       </p>
       <a href="tel:+34688977721">+34 688 97 77 21</a>
       <br />

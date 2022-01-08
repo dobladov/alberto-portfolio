@@ -83,7 +83,7 @@ const IndexPage = () => (
       </Project>
 
       <Project
-        name="Stay in the northern highlands"
+        name="Stay in Sierra Norte"
         images={[
           { src: 'nororma-1', alt: 'missing' },
           { src: 'nororma-2', alt: 'missing' },
@@ -243,7 +243,7 @@ const IndexPage = () => (
         documentary including moving to other countries.
       </p>
       <p>
-        I&apos;m also a licensed drone pilot.
+        I&apos;m also a licensed drone pilot and radiophonist.
       </p>
       <a href="tel:+34688977721">+34 688 97 77 21</a>
       <br />
