@@ -96,9 +96,9 @@ const IndexPage = () => (
         watchText="Ver"
         name="Quédate en Sierra Norte"
         images={[
-          { src: 'nororma-1', alt: 'missing' },
-          { src: 'nororma-2', alt: 'missing' },
-          { src: 'nororma-3', alt: 'missing' },
+          { src: 'nororma-1', alt: 'Una fuente en una zona rural' },
+          { src: 'nororma-2', alt: 'Vista áerea de una presa' },
+          { src: 'nororma-3', alt: 'Un grupo de personas haciendo rafting' },
         ]}
         link="https://vimeo.com/602155946"
       >
@@ -119,9 +119,9 @@ const IndexPage = () => (
         watchText="Ver"
         name="Youssef Kham Studio"
         images={[
-          { src: 'youssef-1', alt: 'missing' },
-          { src: 'youssef-2', alt: 'missing' },
-          { src: 'youssef-3', alt: 'missing' },
+          { src: 'youssef-1', alt: 'Un peluquero cortando pelo' },
+          { src: 'youssef-2', alt: 'Un cliente teneindo un corte de pelo' },
+          { src: 'youssef-3', alt: 'Vista cercana de un cliente teniendo un corte de pelo' },
         ]}
         link="https://vimeo.com/614333922"
       >
@@ -190,9 +190,9 @@ const IndexPage = () => (
         watchText="Ver"
         name="Mae Mía"
         images={[
-          { src: 'maemia-1', alt: 'missing' },
-          { src: 'maemia-2', alt: 'missing' },
-          { src: 'maemia-3', alt: 'missing' },
+          { src: 'maemia-1', alt: 'Un chico joven en pose de pelea' },
+          { src: 'maemia-2', alt: 'Logo para la cancion Mae Mía' },
+          { src: 'maemia-3', alt: 'Un grupo de bailarinas alrededor del cantante' },
         ]}
         link="https://vimeo.com/610911773"
       >
@@ -221,9 +221,9 @@ const IndexPage = () => (
         watchText="Ver"
         name="Al-Flamenco"
         images={[
-          { src: 'flamenco-1', alt: 'missing' },
-          { src: 'flamenco-2', alt: 'missing' },
-          { src: 'flamenco-3', alt: 'missing' },
+          { src: 'flamenco-1', alt: 'Un hombre haciendo palmas estilo flamenco' },
+          { src: 'flamenco-2', alt: 'Portada para la cancion' },
+          { src: 'flamenco-3', alt: 'El artista mirando a una silla sobre ruinas' },
         ]}
         link="https://vimeo.com/602105045"
       >
