@@ -16,6 +16,10 @@ html {
     box-sizing: inherit;
 }
 
+body, html {
+    height: -webkit-fill-available;
+}
+
 /* Avoid import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
