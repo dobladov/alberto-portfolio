@@ -31,9 +31,7 @@ img {
     box-shadow: 1px 1px 7px 14px #0000001f;
 }
 
-
 a:link {
-    /* color: palevioletred; */
     color: paleturquoise;
 }
 a:visited  {
