@@ -14,7 +14,9 @@
     display: flex;
     justify-content: space-between;
     padding: .3rem 0;
-    align-items: center
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .projectTitle {
@@ -23,6 +25,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .projectTitle {
+        font-size: 2rem;
+    }
+
     .image:hover {
         transform: scale(1.5);
         z-index: 3;
