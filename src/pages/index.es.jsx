@@ -86,6 +86,7 @@ const IndexPage = () => (
       </Project>
 
       <Project
+        watchText="Ver"
         name="Quédate en Sierra Norte"
         images={[
           { src: 'nororma-1', alt: 'missing' },
@@ -94,7 +95,7 @@ const IndexPage = () => (
         ]}
         link="https://vimeo.com/602155946"
       >
-        Comercial para promover el turismo en el noroeste de Málaga
+        Comercial para promover el turismo en la comarca nororiental de Málaga
         {' '}
         (
         <a
@@ -108,6 +109,7 @@ const IndexPage = () => (
       </Project>
 
       <Project
+        watchText="Ver"
         name="Youssef Kham Studio"
         images={[
           { src: 'youssef-1', alt: 'missing' },
@@ -116,7 +118,7 @@ const IndexPage = () => (
         ]}
         link="https://vimeo.com/614333922"
       >
-        Comercial para promover un taller de barbería enseñado por
+        Comercial para promover un taller de barbería impartido por
         {' '}
         <a
           target="_blank"
@@ -178,6 +180,7 @@ const IndexPage = () => (
       </Project>
 
       <Project
+        watchText="Ver"
         name="Mae Mía"
         images={[
           { src: 'maemia-1', alt: 'missing' },
@@ -208,6 +211,7 @@ const IndexPage = () => (
       </Project>
 
       <Project
+        watchText="Ver"
         name="Al-Flamenco"
         images={[
           { src: 'flamenco-1', alt: 'missing' },
