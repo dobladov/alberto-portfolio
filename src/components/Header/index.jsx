@@ -55,13 +55,13 @@ export const Header = ({ attributes }) => {
         >
           <Link
             className={styles.btn}
-            href="/"
+            to="/"
           >
             EN
           </Link>
           <Link
             className={styles.btn}
-            href="/es"
+            to="/es"
           >
             ES
           </Link>
