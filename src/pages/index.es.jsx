@@ -22,7 +22,14 @@ const IndexPage = () => (
       htmlAttributes={{
         lang: 'es',
       }}
-    />
+    >
+      <meta
+        name="description"
+        content="Soy un videógrafo y fotógrafo localizado en Málaga (España), trabajando para mi propia productora Cara Oculta.
+            He trabajado con una amplia gama de clientes para productos, deportes y especialmente en el campo musical,
+            traduciendo el talento de mis clientes en bellas imágenes y vídeos."
+      />
+    </Helmet>
     <Header attributes={attributes} />
     <Section
       full

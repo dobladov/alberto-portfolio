@@ -21,7 +21,14 @@ const IndexPage = () => (
       htmlAttributes={{
         lang: 'en',
       }}
-    />
+    >
+      <meta
+        name="description"
+        content="I'm a videographer and photographer based in Málaga (Spain), working at my own producing company Cara Oculta.
+              I've worked with a wide range of clients for products, sports and specially in the musical field,
+              translating talent of my clients into beautiful images and videos."
+      />
+    </Helmet>
     <Header attributes={attributes} />
     <Section
       full
