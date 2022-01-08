@@ -37,7 +37,7 @@ const IndexPage = () => (
       />
 
       <p className={styles.text}>
-        I&apos;m a freelance videographer and photographer based in Málaga (Spain),
+        I&apos;m a videographer and photographer based in Málaga (Spain),
         working at my own producing company
         {' '}
         <a target="_blank" rel="noopener noreferrer" href="https://caraoculta.es/">Cara Oculta</a>

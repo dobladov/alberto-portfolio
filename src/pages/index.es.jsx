@@ -38,7 +38,7 @@ const IndexPage = () => (
       />
 
       <p className={styles.text}>
-        Soy un videógrafo y fotógrafo freelance localizado en Málaga (España),
+        Soy un videógrafo y fotógrafo localizado en Málaga (España),
         trabajando para mi propia productora
         {' '}
         <a target="_blank" rel="noopener noreferrer" href="https://caraoculta.es/">Cara Oculta</a>
