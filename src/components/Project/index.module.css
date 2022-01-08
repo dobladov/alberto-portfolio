@@ -4,11 +4,6 @@
     transform: scale(1);
 }
 
-.image:hover {
-    transform: scale(1.5);
-    z-index: 3;
-}
-
 .projectName {
     position: sticky;
     top: 3px;
@@ -25,5 +20,12 @@
 .projectTitle {
     margin: 0;
     padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .image:hover {
+        transform: scale(1.5);
+        z-index: 3;
+    }
 }
 

@@ -9,11 +9,11 @@
     background-size: cover;
 }
 
-.profileImage:hover {
-    transform: scale(1.1);
-}
-
 @media screen and (min-width: 768px) {
+    .profileImage:hover {
+        transform: scale(1.1);
+    }
+
     .profileImage {
         float: left;
     }
