@@ -1,12 +1,9 @@
 import React from 'react';
 import {
   Instagram,
-  Twitter,
-  Youtube,
   Film,
   Camera,
   Linkedin,
-  Image,
 } from 'react-feather';
 
 // import Vimeo from '../images/vimeo.inline.svg';
@@ -18,12 +15,9 @@ const icon = {
 
 const socials = [
   ['https://vimeo.com/user24354353', Film],
-  ['https://www.instagram.com/albertodobladov/', Instagram],
-  ['https://www.youtube.com/channel/UCuh68AZF3sxVJlxC1IqbjfQ/', Youtube],
-  ['https://www.twitter.com/albertodobladov/', Twitter],
-  ['https://wirestock.io/alberto.doblado.vera/portfolio/', Camera],
-  ['https://www.behance.net/AlbertoDV', Image],
+  ['https://www.behance.net/AlbertoDV', Camera],
   ['https://www.linkedin.com/in/alberto-doblado-vera', Linkedin],
+  ['https://www.instagram.com/albertodobladov/', Instagram],
 ];
 
 export const Socials = () => (
