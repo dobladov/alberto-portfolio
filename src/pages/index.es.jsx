@@ -5,18 +5,7 @@ import { Section } from '../components/Section';
 import { Project } from '../components/Project';
 import { Socials } from '../components/Socials';
 
-import profileImage from '../images/profile.jpg';
-import tirantitos1 from '../images/tirantitos-1.jpg';
-import tirantitos2 from '../images/tirantitos-2.jpg';
-import tirantitos3 from '../images/tirantitos-3.jpg';
-
-import clones1 from '../images/clones-1.jpg';
-import clones2 from '../images/clones-2.png';
-import clones3 from '../images/clones-3.jpg';
-
-import mondnacht1 from '../images/mondnacht-1.png';
-import mondnacht2 from '../images/mondnacht-2.png';
-import mondnacht3 from '../images/mondnacht-3.png';
+import { ProfileImage } from '../components/ProfileImage';
 
 import * as styles from './index.module.css';
 
@@ -44,22 +33,19 @@ const IndexPage = () => (
         Alberto Doblado
       </h1>
 
-      <img
-        className={styles.profileImage}
-        width="400px"
-        src={profileImage}
+      <ProfileImage
         alt="Retrato de Alberto Doblado"
       />
 
       <p className={styles.text}>
-        Es un videógrafo y fotógrafo freelance localizado en Málaga (España),
-        trabajado en su propia productora
+        Soy un videógrafo y fotógrafo freelance localizado en Málaga (España),
+        trabajando para mi propia productora
         {' '}
         <a target="_blank" rel="noopener noreferrer" href="https://caraoculta.es/">Cara Oculta</a>
         .
       </p>
       <p>
-        Ha trabajado con una amplia gama de clientes para productos, deportes y
+        He trabajado con una amplia gama de clientes para productos, deportes y
         especialmente en el campo musical, traduciendo el talento de sus clientes
         en bellas imágenes y vídeos.
       </p>
@@ -71,9 +57,9 @@ const IndexPage = () => (
         watchText="Ver"
         name="Los Tirantitos"
         images={[
-          { src: tirantitos1, alt: 'Titulo del videoclip', pos: 'left' },
-          { src: tirantitos2, alt: 'Dos chicas a punto de besarse', pos: 'middle' },
-          { src: tirantitos3, alt: 'Vista aérea de un atardecer', pos: 'right' },
+          { src: 'tirantitos-1', alt: 'Titulo del videoclip', pos: 'left' },
+          { src: 'tirantitos-2', alt: 'Dos chicas a punto de besarse', pos: 'middle' },
+          { src: 'tirantitos-3', alt: 'Vista aérea de un atardecer', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=AgPC9QQqd18"
       >
@@ -91,9 +77,9 @@ const IndexPage = () => (
         watchText="Ver"
         name="Mondnacht"
         images={[
-          { src: mondnacht1, alt: 'Jaime Espinosa tocando el piano', pos: 'left' },
-          { src: mondnacht2, alt: 'Ambos musicos tocando', pos: 'middle' },
-          { src: mondnacht3, alt: 'Kitty Bazalgette cantando', pos: 'right' },
+          { src: 'mondnacht-1', alt: 'Jaime Espinosa tocando el piano', pos: 'left' },
+          { src: 'mondnacht-2', alt: 'Ambos musicos tocando', pos: 'middle' },
+          { src: 'mondnacht-3', alt: 'Kitty Bazalgette cantando', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=TWDRQoaNrNk"
       >
@@ -106,9 +92,9 @@ const IndexPage = () => (
         name="A Fistful of Clones"
         inverse
         images={[
-          { src: clones1, alt: 'Un tecnico abriendo una maleta', pos: 'left' },
-          { src: clones2, alt: 'Portada del video', pos: 'middle' },
-          { src: clones3, alt: 'Dos clones haciendo tareas simultáneamente', pos: 'right' },
+          { src: 'clones-1', alt: 'Un tecnico abriendo una maleta', pos: 'left' },
+          { src: 'clones-2', alt: 'Portada del video', pos: 'middle' },
+          { src: 'clones-3', alt: 'Dos clones haciendo tareas simultáneamente', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=_kv1YdZp5VQ"
       >

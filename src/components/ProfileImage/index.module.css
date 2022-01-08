@@ -1,0 +1,20 @@
+.profileImage {
+    border-radius: 5px;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    transform: scale(1) rotate(-2deg);
+    position: relative;
+    top: 1rem;
+    transition: all .5s;
+    background-size: cover;
+}
+
+.profileImage:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+    .profileImage {
+        float: left;
+    }
+}

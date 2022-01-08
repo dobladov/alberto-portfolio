@@ -4,19 +4,7 @@ import { Header } from '../components/Header';
 import { Section } from '../components/Section';
 import { Project } from '../components/Project';
 import { Socials } from '../components/Socials';
-
-import profileImage from '../images/profile.jpg';
-import tirantitos1 from '../images/tirantitos-1.jpg';
-import tirantitos2 from '../images/tirantitos-2.jpg';
-import tirantitos3 from '../images/tirantitos-3.jpg';
-
-import clones1 from '../images/clones-1.jpg';
-import clones2 from '../images/clones-2.png';
-import clones3 from '../images/clones-3.jpg';
-
-import mondnacht1 from '../images/mondnacht-1.png';
-import mondnacht2 from '../images/mondnacht-2.png';
-import mondnacht3 from '../images/mondnacht-3.png';
+import { ProfileImage } from '../components/ProfileImage';
 
 import * as styles from './index.module.css';
 
@@ -44,23 +32,20 @@ const IndexPage = () => (
         Alberto Doblado
       </h1>
 
-      <img
-        className={styles.profileImage}
-        width="400px"
-        src={profileImage}
+      <ProfileImage
         alt="Portrait of Alberto Doblado"
       />
 
       <p className={styles.text}>
-        Is a freelance videographer and photographer based in Málaga (Spain),
-        working at his own producing company
+        I&apos;m a freelance videographer and photographer based in Málaga (Spain),
+        working at my own producing company
         {' '}
         <a target="_blank" rel="noopener noreferrer" href="https://caraoculta.es/">Cara Oculta</a>
         .
       </p>
       <p>
-        He has worked with a wide range of clients for products, sports and specially in
-        the musical field, translating their client&apos;s talent into beautiful images and videos.
+        I&apos;ve worked with a wide range of clients for products, sports and specially in
+        the musical field, translating talent of my clients into beautiful images and videos.
       </p>
     </Section>
     <Section>
@@ -69,9 +54,9 @@ const IndexPage = () => (
       <Project
         name="Los Tirantitos"
         images={[
-          { src: tirantitos1, alt: 'Video clip title', pos: 'left' },
-          { src: tirantitos2, alt: 'Two girls about to kiss', pos: 'middle' },
-          { src: tirantitos3, alt: 'Sunset with an aerial view of the band', pos: 'right' },
+          { src: 'tirantitos-1', alt: 'Video clip title', pos: 'left' },
+          { src: 'tirantitos-2', alt: 'Two girls about to kiss', pos: 'middle' },
+          { src: 'tirantitos-3', alt: 'Sunset with an aerial view of the band', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=AgPC9QQqd18"
       >
@@ -88,9 +73,9 @@ const IndexPage = () => (
       <Project
         name="Mondnacht"
         images={[
-          { src: mondnacht1, alt: 'Jaime Espinosa playing the piano', pos: 'left' },
-          { src: mondnacht2, alt: 'Both musicians performing together', pos: 'middle' },
-          { src: mondnacht3, alt: 'Kitty Bazalgette singing', pos: 'right' },
+          { src: 'mondnacht-1', alt: 'Jaime Espinosa playing the piano', pos: 'left' },
+          { src: 'mondnacht-2', alt: 'Both musicians performing together', pos: 'middle' },
+          { src: 'mondnacht-3', alt: 'Kitty Bazalgette singing', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=TWDRQoaNrNk"
       >
@@ -102,9 +87,9 @@ const IndexPage = () => (
         name="A Fistful of Clones"
         inverse
         images={[
-          { src: clones1, alt: 'A technician opening a radioactive toolbox', pos: 'left' },
-          { src: clones2, alt: 'The poster for the short film', pos: 'middle' },
-          { src: clones3, alt: 'Two colnes performing task simultaneously', pos: 'right' },
+          { src: 'clones-1', alt: 'A technician opening a radioactive toolbox', pos: 'left' },
+          { src: 'clones-2', alt: 'The poster for the short film', pos: 'middle' },
+          { src: 'clones-3', alt: 'Two colnes performing task simultaneously', pos: 'right' },
         ]}
         link="https://www.youtube.com/watch?v=_kv1YdZp5VQ"
       >

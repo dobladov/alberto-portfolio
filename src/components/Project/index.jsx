@@ -8,7 +8,6 @@ export const Project = ({
   children,
   images,
   link,
-  inverse,
   watchText = 'Watch',
 }) => (
   <div style={{
@@ -73,17 +72,22 @@ export const Project = ({
           href={link}
           key={src}
         >
-          <img
+          <picture
             className={pos}
-            width="400px"
-            height="320px"
-            src={src}
-            alt={alt}
             style={{
               position: 'relative',
               top: `${2 * i}rem`,
             }}
-          />
+          >
+            <source srcSet={require(`../../images/${src}.avif`).default} />
+            <source srcSet={require(`../../images/${src}.webp`).default} />
+            <img
+              className={styles.image}
+              width="400px"
+              src={require(`../../images/${src}.jpg`).default}
+              alt={alt}
+            />
+          </picture>
         </a>
       ))}
     </div>

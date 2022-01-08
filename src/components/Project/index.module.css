@@ -1,9 +1,10 @@
-.container img {
+.image {
+    position: relative;
     transition: all .5s;
     transform: scale(1);
 }
 
-.container img:hover {
+.image:hover {
     transform: scale(1.5);
     z-index: 3;
 }

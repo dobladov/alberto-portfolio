@@ -9,18 +9,6 @@
     line-height: 3rem;
 }
 
-.profileImage {
-    border-radius: 5px;
-    margin-right: 3rem;
-    margin-bottom: 2rem;
-    transform: scale(1) rotate(-2deg);
-    position: relative;
-    top: 1rem;
-    transition: all .5s;
-    background-size: cover;
-
-}
-
 @media screen and (min-width: 768px) {
     .container {
         padding-top: 0;
@@ -29,13 +17,6 @@
     .title {
         font-size: 5rem;
     }
-
-    .profileImage {
-        float: left;
-    }
-}
-.profileImage:hover {
-    transform: scale(1.1);
 }
 
 .text {
