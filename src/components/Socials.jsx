@@ -12,7 +12,7 @@ const icon = {
 };
 
 const socials = [
-  ['https://vimeo.com/user24354353', Film, 'Vimeo'],
+  ['https://vimeo.com/albertodobladov', Film, 'Vimeo'],
   ['https://www.behance.net/AlbertoDV', Camera, 'Behance'],
   ['https://www.linkedin.com/in/alberto-doblado-vera', Linkedin, 'LinkedIn'],
   ['https://www.instagram.com/albertodobladov/', Instagram, 'Instagram'],
