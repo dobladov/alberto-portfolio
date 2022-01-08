@@ -176,7 +176,7 @@ const IndexPage = () => (
         link="https://www.youtube.com/watch?v=_kv1YdZp5VQ"
       >
         Corto sobre la despoblación de áreas rurales desde una nueva perspectiva,
-        discutiéndolo desde el punto de vista de la ciencia ficción.
+        levandolo a la ciencia ficción.
       </Project>
 
       <Project
