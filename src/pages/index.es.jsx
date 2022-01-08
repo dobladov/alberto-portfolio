@@ -220,7 +220,7 @@ const IndexPage = () => (
         ]}
         link="https://vimeo.com/602105045"
       >
-        Teaser del vídeo musical oficial
+        Adelanto del vídeo musical oficial
         {' '}
         <a
           target="_blank"
@@ -251,7 +251,7 @@ const IndexPage = () => (
       <h2>Contacto</h2>
       <p>
         Actualmente, estoy disponible para trabajar en cualquier tipo de proyecto,
-        desde cortos, videoclips, comerciales a documentales incluyendo moverme a otros países.
+        desde cortos, videoclips, comerciales o documentales, incluyendo moverme a otros países.
       </p>
       <p>
         También tengo licencia de piloto de drones y radiofonista.
