@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'gatsby';
 import { Progress } from '../Progress';
 import { Typer } from '../Typer';
 
@@ -52,18 +53,18 @@ export const Header = ({ attributes }) => {
         <nav
           className={styles.langs}
         >
-          <a
+          <Link
             className={styles.btn}
             href="/"
           >
             EN
-          </a>
-          <a
+          </Link>
+          <Link
             className={styles.btn}
             href="/es"
           >
             ES
-          </a>
+          </Link>
         </nav>
         <Progress progress={scrollProgress} />
       </div>
