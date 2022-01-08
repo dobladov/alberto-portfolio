@@ -65,7 +65,7 @@ export const Project = ({
       }}
       className={styles.container}
     >
-      {images.map(({ src, alt, pos }, i) => (
+      {images.map(({ src, alt }, i) => (
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -73,7 +73,6 @@ export const Project = ({
           key={src}
         >
           <picture
-            className={pos}
             style={{
               position: 'relative',
               top: `${2 * i}rem`,
