@@ -46,7 +46,7 @@ const IndexPage = () => (
       </p>
       <p>
         He trabajado con una amplia gama de clientes para productos, deportes y
-        especialmente en el campo musical, traduciendo el talento de sus clientes
+        especialmente en el campo musical, traduciendo el talento de mis clientes
         en bellas imágenes y vídeos.
       </p>
     </Section>
@@ -89,7 +89,7 @@ const IndexPage = () => (
 
       <Project
         watchText="Ver"
-        name="A Fistful of Clones"
+        name="Por un puñado de clones"
         inverse
         images={[
           { src: 'clones-1', alt: 'Un tecnico abriendo una maleta', pos: 'left' },
@@ -111,10 +111,10 @@ const IndexPage = () => (
       <h2>Contacto</h2>
       <p>
         Actualmente, estoy disponible para trabajar en cualquier tipo de proyecto,
-        desde cortos, videoclips musicales a largos documentales incluyendo moverme a otros países.
+        desde cortos, videoclips musicales a documentales incluyendo moverme a otros países.
       </p>
       <p>
-        Soy también un piloto de drones licenciado.
+        Soy también tengo licencia para el pilotaje de drones.
       </p>
       <a href="tel:+34688977721">+34 688 97 77 21</a>
       <br />
