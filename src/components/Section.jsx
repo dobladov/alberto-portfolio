@@ -20,6 +20,7 @@ export const Section = ({
   };
 
   const sectionFull = {
+    height: 'fill-available',
     minHeight: '100vh',
   };
 

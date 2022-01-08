@@ -17,7 +17,7 @@ html {
 }
 
 body, html {
-    height: -webkit-fill-available;
+    height: fill-available;
 }
 
 /* Avoid import */
