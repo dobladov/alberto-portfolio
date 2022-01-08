@@ -51,7 +51,7 @@ const IndexPage = () => (
       </p>
     </Section>
     <Section>
-      <h2>Projectos</h2>
+      <h2>Proyectos</h2>
 
       <Project
         watchText="Ver"
