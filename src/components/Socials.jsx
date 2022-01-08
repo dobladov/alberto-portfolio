@@ -6,18 +6,16 @@ import {
   Linkedin,
 } from 'react-feather';
 
-// import Vimeo from '../images/vimeo.inline.svg';
-
 const icon = {
   width: '3rem',
   height: '3rem',
 };
 
 const socials = [
-  ['https://vimeo.com/user24354353', Film],
-  ['https://www.behance.net/AlbertoDV', Camera],
-  ['https://www.linkedin.com/in/alberto-doblado-vera', Linkedin],
-  ['https://www.instagram.com/albertodobladov/', Instagram],
+  ['https://vimeo.com/user24354353', Film, 'Vimeo'],
+  ['https://www.behance.net/AlbertoDV', Camera, 'Behance'],
+  ['https://www.linkedin.com/in/alberto-doblado-vera', Linkedin, 'LinkedIn'],
+  ['https://www.instagram.com/albertodobladov/', Instagram, 'Instagram'],
 ];
 
 export const Socials = () => (
@@ -29,24 +27,13 @@ export const Socials = () => (
     padding: '3rem 0',
   }}
   >
-    {/* <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://vimeo.com/user24354353"
-    > */}
-    {/* <img
-        style={icon}
-        src={Vimeo}
-        alt="Vimeo"
-      /> */}
-    {/* <Vimeo style={icon} />
-    </a> */}
-    {socials.map(([url, Icon]) => (
+    {socials.map(([url, Icon, title]) => (
       <a
         target="_blank"
         rel="noopener noreferrer"
         key={url}
         href={url}
+        title={title}
       >
         <Icon style={icon} />
       </a>
