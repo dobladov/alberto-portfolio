@@ -208,7 +208,7 @@ const IndexPage = () => (
       </Project>
 
       <Project
-        name="Al-flamenco"
+        name="Al-Flamenco"
         images={[
           { src: 'flamenco-1', alt: 'missing' },
           { src: 'flamenco-2', alt: 'missing' },
